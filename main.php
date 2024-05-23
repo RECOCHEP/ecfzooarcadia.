@@ -1,5 +1,5 @@
 <?php
-// Paramètres de connexion à la base de données
+// Paramètres de connexion à la base de données Mysql
 $host = 'localhost';
 $dbname = 'zoo_db';
 $username = 'zoodbadmin';
