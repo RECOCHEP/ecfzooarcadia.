@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Zoo Arcadia</h1>
+            <ul class="menu">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Habitats</a></li>
+                <li><a href="#">Connexion</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Image de fond -->
+    <div class="background-image"></div>
+
+    <!-- Section principale -->
+    <div class="main container">
+        <div class="description-section">
+            <h3>LE ZOO ARCADIA</h3>
+            <p> Crée en 1960 le zoo Arcadia prés de la forêt de Borcéliande fait la joie des petits et des grands. </p>
+            <p> Nous disposons d'un grand nombre d'animaux dont nos soigneurs prennent soin</p>
+            <p> Depuis toujours l'engagement pour l'écologie et les droits des animaux nous paraissent primordiaux</p>
+            <p>Aujourd'hui nous sommes fières de vous présenter nos animaux en parfaite santé dans des environnements quasi naturels</p>
+        </div>
+        <!-- Titre -->
+        <h2 class="title">VENEZ DECOUVRIR LA JUNGLE DU TIGRE, LE MARAIS DU CROCODILE ET LA SAVANE DU LION. </h2>
+
+        <!-- Boutons pour les habitats -->
+        <div class="buttons">
+            <button class="habitat-button" onclick="window.location.href='#'">
+                <img src="pics/tigre.jpg" alt="Jungle">
+            </button>
+            <button class="habitat-button" onclick="window.location.href='#'">
+                <img src="pics/croco.jpg" alt="Marais">
+            </button>
+            <button class="habitat-button" onclick="window.location.href='#'">
+                <img src="pics/lion.jpg" alt="Savane">
+            </button>
+        </div>
+
+        <!-- Formulaire pour les commentaires -->
+        <div class="comment-form">
+            <h3>Laissez un commentaire</h3>
+            <form action="#" method="post">
+                <input type="text" name="pseudo" placeholder="Pseudo" required>
+                <textarea name="comment" placeholder="Votre commentaire" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="footer container">
+        <p>&copy; 2024 Zoo Arcadia. Tous droits réservés.</p>
+        <div class="mentions-legales">
+            <p>Responsable de la publication : José Arcadia
+            <p>Adresse : Forêt de Brocéliande</p>
+            <p>Téléphone : 06 22 46 49 99</p>
+            <p>E-mail : zooarcadia@gmail.com</p>
+            <p>Hébergement : </p>
+            <p>Droit d'auteur : Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
